@@ -21,13 +21,21 @@
         </style>
     </head>
     <body class="antialiased">
-        <header>
-              хэдер
+        <header style="width:100%; heigth:100px; display:flex;">
+            <div style="width:200px; heigth:100px; background-color:red;">
+                 MainLogo
+            </div>
+            <nav style="width:300px; heigth:100px; background-color:green;">
+                Navigation menu
+            </nav>
+            <div style="width:200px; heigth:100px; background-color:yellow;">
+                 AuthBlock
+            </div>
         </header>
         <main>
             каталог
         </main>
-        <footer>
+        <footer style="width:100%; heigth:100px; background-color:silver">
             футер
         </footer>
     </body>
