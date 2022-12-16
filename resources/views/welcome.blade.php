@@ -32,7 +32,7 @@
                  AuthBlock
             </div>
         </header>
-        <main>
+        <main class="mealsDesk" style="display:flex; width:100%; background-color:blue; flex-wrap: wrap; justify-content:space-between; min-height: min(88vh, calc(100vh - 140px));">
             каталог
         </main>
         <footer style="width:100%; heigth:100px; background-color:silver">
