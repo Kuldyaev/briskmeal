@@ -17,6 +17,7 @@
 <style scoped>
     .headerBlock{
         padding-left: 20px;
+        display: flex;
     }
     .navItem{
         margin-left:10px;
