@@ -1,5 +1,5 @@
 <template>
-    <div class="container mainLogoBlock" :style="background-image:url(http://svoyapi.ru/brisk-meal/photo/logo);">
+    <div class="container mainLogoBlock" :style="'background-image:url(http://svoyapi.ru/brisk-meal/photo/logo);'">
         <a class="navbar-brand" href="/">
             MainLogo
         </a>
