@@ -11,7 +11,7 @@
     </div>
     <div class="mealsDesk" style="display:flex; width:100%; background-color:yellow; flex-wrap: wrap; justify-content:space-between; min-height: min(88vh, calc(100vh - 140px));">
         @for ($i = 0; $i < 12; $i++)
-            <meal-card n={{i}} ></meal-card>
+            <meal-card n={{$i}} ></meal-card>
         @endfor
     </div>
 </div>
