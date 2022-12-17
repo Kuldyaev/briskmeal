@@ -18,5 +18,8 @@
     .mainLogoBlock{
         background-color: red;
         width: 20vw;
+        background-repeat: no-repeat;
+        background-size: auto 100% ;
+        background-position: center center;
     }
 </style>
