@@ -15,8 +15,17 @@ import { createApp } from 'vue';
 
 const app = createApp({});
 
-import ExampleComponent from './components/ExampleComponent.vue';
-app.component('example-component', ExampleComponent);
+import FooterComponent from './components/FooterComponent.vue';
+app.component('footer-component', FooterComponent);
+
+import HeaderComponent from './components/HeaderComponent.vue';
+app.component('nav-header-component', HeaderComponent);
+
+import MainLogoComponent from './components/MainLogoComponent.vue';
+app.component('main-logo-component', MainLogoComponent);
+
+import Mealcardomponent from './components/MealCardComponent.vue';
+app.component('meal-card', Mealcardomponent);
 
 /**
  * The following block of code may be used to automatically register your
