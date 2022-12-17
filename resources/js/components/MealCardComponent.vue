@@ -8,6 +8,7 @@
 
 <script>
     export default {
+        props: ['n'],
         mounted() {
             console.log('MealCard Component mounted.')
         }
