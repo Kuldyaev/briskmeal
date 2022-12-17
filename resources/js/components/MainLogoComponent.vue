@@ -16,8 +16,8 @@
 
 <style scoped>
     .mainLogoBlock{
-        background-color: red;
-        width: 20vw;
+        height: 70px;
+        width: 100px;
         background-repeat: no-repeat;
         background-size: auto 100% ;
         background-position: center center;
