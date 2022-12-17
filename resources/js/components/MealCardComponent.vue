@@ -1,6 +1,6 @@
 <template>
     <div class="mealCArd" >
-      <a class="mealCArdLink" href="/meals/1">
+      <a class="mealCArdLink" href="/meals/1" :style="'background-image:url(http://svoyapi.ru/brisk-meal/300/photo/'+ n +');'">
             card
         </a>
     </div>
