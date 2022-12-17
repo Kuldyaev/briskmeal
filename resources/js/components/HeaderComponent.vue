@@ -1,6 +1,8 @@
 <template>
     <div class="container headerBlock" >
-        header
+       <div class="navItem">NavItem</div>
+       <div class="navItem">NavItem</div>
+       <div class="navItem">NavItem</div>
     </div>
 </template>
 
@@ -14,7 +16,10 @@
 
 <style scoped>
     .headerBlock{
-        background-color: green;
+        padding-left: 20px;
+    }
+    .navItem{
+        margin-left:10px;
     }
 
 </style>
