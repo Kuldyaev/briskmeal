@@ -30,9 +30,9 @@ Route::get('/cart', function () {
     return view('cart');
 })->name('cart');
 
-Route::get('/catalog', function () {
-    return view('catalog');
-});
+Route::get('/catalog', function () {return view('catalog');})->name('catalog');
+
+Route::get('/meal/{meal}', function () {return view('oneMeal');})->name('oneMeal');
 
 Auth::routes();
 
