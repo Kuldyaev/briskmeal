@@ -13,13 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', function () {return view('welcome');})->name('home');
 
-Route::get('/catalog', function () {
-    return view('catalog');
-});
+Route::get('/catalog', function () {return view('catalog');})->name('catalog');
+
+Route::get('/meal/{meal}', function () {return view('oneMeal');})->name('oneMeal');
 
 Auth::routes();
 
