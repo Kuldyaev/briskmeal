@@ -1,6 +1,5 @@
 <template>
     <div class="flex-item">
-        <MainLogoComponent />
         <div class="headerBlock">
             <nav class="header-navigation">
                 <a class="header-navigation-link" href="/catalog"
