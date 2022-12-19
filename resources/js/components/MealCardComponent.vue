@@ -18,7 +18,7 @@
 <style scoped>
     .mealCArd{
         background-color: silver;
-        width: 36px;
+        width: 360px;
         height: 340px;
         margin-bottom: 10px;
     }
