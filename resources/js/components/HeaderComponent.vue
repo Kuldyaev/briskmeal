@@ -24,9 +24,7 @@
 </template>
 
 <script>
-import MainLogoComponent from "./MainLogoComponent.vue";
 export default {
-    components: { MainLogoComponent },
     mounted() {
         console.log("Header Component mounted.");
     },
