@@ -18,8 +18,8 @@
 <style scoped>
     .mealCArd{
         background-color: silver;
-        width: 300px;
-        height: 300px;
+        width: 36px;
+        height: 340px;
         margin-bottom: 10px;
     }
     .mealCArdLink{
