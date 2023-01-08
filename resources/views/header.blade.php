@@ -1,4 +1,4 @@
-<header class="navbar navbar-expand-md navbar-light bg-white shadow-sm position-fixed">
+<header class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
     <div class="container">
         <main-logo-component></main-logo-component>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
